@@ -1,10 +1,6 @@
 #!/bin/bash
-#Vars
-OUTPATH=/root/Storage/Backups
-DATE=$(date +%d-%b)
 
-#Deletes backups that are more than 2 days old
-find "$OUTPATH"/* -mtime +2 -type f -delete
+VAR_1="Devil"
+VAR_2="OWL"
 
-#Actual backup operation
-dd if=/dev/mmcblk0 | gzip -1 - | dd  of="$OUTPATH"/bpi-"$DATE".img.gz bs=512 count=60831745
+echo "$VAR_1$VAR_2"
