@@ -1,6 +1,5 @@
-#!/bin/bash
+This is a script to backup my banana pi image to an external hard drive. I am new to bash scripting, so I know this will be an easy fix most likely but here is my issue:
 
-VAR_1="Devil"
-VAR_2="OWL"
+I am running the script from ~/scripts
 
-echo "$VAR_1$VAR_2"
+and the output file is ~/Storage/Backups (the mount point for the external HDD, specified in my /etc/fstab.
